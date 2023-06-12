@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Payment Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="shortcut icon" href="public/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="../styles.css" rel="stylesheet">
+    
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./styles.css">
+</head>
+section class="home" id="home">
+<br>
+            <div class="home_container container grid">
+<br>
+                <img src="../img/spencer-davis-4353813.jpg" alt="" class="home_img">
+               
+                   
+                </div>
+
+                <div class="home_social">
+
+                    <span class="home_social-follow">Follow Us</span>
+
+                    <div class="home_social-links">
+
+                        <a href="https://www.facebook.com" target="_blank" class="home_social-links">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com" target="_blank" class="home_social-links">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+
+                        <a href="https://twitter.com/home" target="_blank" class="home_social-links">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+<body>
+    <div class="container">
+        
+        <div class="container" id='root'></div>
+    </div>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">
+                    <img src="../img/logo4.jpg" class="travel-logo">
+                    <i class="ri-plane-line"></i>
+                </a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link active-link">About Us</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#Packages" class="nav_link active-link">Packages</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="./04-02-products-create-form.html" class="nav_link active-link">My Account</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link active-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="nav_close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+    
+                <div class="nav_btns">
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+    
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+    
+                </div>
+    
+    
+    
+    
+    
+            </nav>
+            <section>
+                <div class="">
+                    <h2> Lets finalize your Payment!</h2>
+
+                    <form action="/action_page.php">
+                        <label for="Payment">Choose your Payment method:</label>
+                        <select id="PKG" name="packages">
+                          <option value="-">Select </option>
+                          <option value="Visa">Visa </option>
+                          <option value="Master Card">Master Card</option>
+                          <option value="Amex">American Express</option>
+                          <option value="Paypal">Paypal</option>
+                          <option value="Interac">Interac</option>
+                          
+                        </select>
+
+                      </form>
+                </div>
+                </section>
+        </header>
+        
+        <main class="main">
+            <!--==================== HOME ====================-->
+    
+           
+    
+                    <div class="home_social">
+    
+                        <span class="home_social-follow">Follow Us</span>
+    
+                        <div class="home_social-links">
+    
+                            <a href="https://www.facebook.com" target="_blank" class="home_social-links">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+    
+                            <a href="https://www.instagram.com" target="_blank" class="home_social-links">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+    
+                            <a href="https://twitter.com/home" target="_blank" class="home_social-links">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+    
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+            
+            <section>
+               
+            
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- <script type="text/babel" src="/js/04-01-product-view.js"></script> -->
+    <script type="text/babel" src="../js/04-02-payment.js"></script>
+    <!-- <script type="text/babel" src="/js/04-01-app.js"></script> -->
+
+</body>
+
+</html>
